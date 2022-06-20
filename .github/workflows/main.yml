@@ -29,8 +29,8 @@ jobs:
         with:
           # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
           node-version: 14.x
-      - run: npm install
-      - run: npm run build
+      - run: npm ci
+      - run: npm run deploy
       #- run: npm test
       
       - name: Deploy to GitHub Pages
