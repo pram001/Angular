@@ -1,9 +1,8 @@
 {
   "name": "angular",
-  "homepage": "https://pram001.github.io/Angular",
   "version": "0.0.0",
   "scripts": {
-    "predeploy": "ng build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
